@@ -1,7 +1,40 @@
 body {
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    font-family: "Montserrat";    
+}
+
+h1 {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
+}
+
+h3 {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 19px;
+    margin: 0;
+}
+
+p {
+
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 15px;
 }
 
 .container {
@@ -12,8 +45,7 @@ body {
     background-color: white;
     height: 64px;
     padding: auto 24px;
-    margin: 20px auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px auto 0 auto;
 }
 
 .logo {
@@ -29,7 +61,7 @@ body {
     height: 42px;
 }
 
-.logo h1 {    
+.logo p {    
     color: black;
     font-size: 18px;
     font-weight: 700;
@@ -47,4 +79,297 @@ nav {
     margin-right: 24px;
     font-size: 16px;
     color:dimgray;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 32px 24px;
+    background-color: #d4d4d4;
+}
+
+.banner img {
+    width: 60%;
+    margin-right: 44px;
+}
+
+.cta_banner {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color:  #3a3a3f;
+}
+
+.cta_banner h1 {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.cta_banner h3 {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 19px;
+    margin: 0;
+}
+
+.banner button {
+    padding: 8px auto;
+    width: auto;
+    height: 44px;
+    background-color: #3a3a3f;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: Arial;
+    border-left: #d4d4d4 solid 1px;
+    border-right: #d4d4d4 solid 1px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+
+.info-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 60%;
+    padding-left: 24px;    
+}
+
+.info-preview img {
+    margin: 32px 24px 0 0;        
+}
+
+.info-preview h2 {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
+}
+
+.info-preview p {
+    margin-top: -8px;
+}
+
+.info-assign {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0;
+} 
+
+.info-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    padding-top: 32px;
+    border-left: #d4d4d4 solid 1px;
+}
+
+.info-post {
+    display: flex;
+    padding: 16px;
+    border-top: #d4d4d4 solid 1px;
+    border-left: #d4d4d4 solid 1px;
+}
+
+.info-post-gray {
+    display: flex;
+    padding: 16px;
+    border-top: #d4d4d4 solid 1px;  
+    border-left: #d4d4d4 solid 1px;
+    background-color: #c3c3ca;
+}
+
+.info-post img {
+    width: 35%;
+    height: auto;
+}
+.info-post-gray img {
+    width: 35%;
+    height: auto;
+}
+
+.info-post-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 16px;
+}
+
+.info-post-gray-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 16px;
+}
+
+.container-learning {
+    display: flex;
+    flex-flow: column;
+    gap: 32px;
+    background-color: #e7e5e5;
+    padding: 32px 72px;
+    align-items: center;
+}
+
+.learning-boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 26px
+}
+
+.learning-box {
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+}
+
+.learning-box img {
+    height: auto;
+}
+
+.learning-box-resume{
+    background-color: white;
+    padding: 16px 16px 24px 24px;
+}
+
+.container-thesis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+    max-width: 1100px;
+    padding: 32px 0;
+}
+    
+.container-thesis-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+    
+.thesis-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 58%;
+    padding: 0 24px;    
+}
+
+.thesia-preview video {
+    margin: 32px 24px 0 0;        
+}
+
+.thesis-preview h2 {
+    color: #3a3a3f;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
+}
+
+.thesis-preview p {
+    margin-top: -8px;
+}
+
+.thesis-posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    margin-right: 5px;
+}
+
+.thesis-post {
+    display: flex;
+    padding: 16px;
+}
+
+.thesis-post-gray {
+    display: flex;
+    padding: 16px;
+    background-color: #c3c3ca;
+}
+
+.thesis-post img {
+    width: 35%;
+    height: auto;
+}
+
+.thesis-post-gray img {
+    width: 35%;
+    height: auto;
+}
+
+.thesis-post-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 16px;
+}
+
+.thesis-post-gray-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 16px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1100px;
+    border-top: #d4d4d4 solid 1px;
+    border-right: #d4d4d4 solid 1px;
+    border-bottom:#d4d4d4 solid 1px;
+    border-left: #d4d4d4 solid 1px;
+    margin: 0 auto; 
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.footer-copyright {
+    padding-left: 24px;
+}
+
+.footer-copyright p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 24px;
+}
+
+.footer-nav p {
+    font-size: 12px;
 }
